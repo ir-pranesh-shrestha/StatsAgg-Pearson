@@ -2,7 +2,7 @@ name: Pearson x InvisiRisk
 
 on:
   schedule:
-    - cron: '45 2 * * *'
+    - cron: '30 3 * * *'
   workflow_dispatch:
 
 permissions:
