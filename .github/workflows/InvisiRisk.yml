@@ -2,7 +2,7 @@ name: Pearson x InvisiRisk
 
 on:
   schedule:
-    - cron: '30 3 * * *'
+   - cron: '35 0 * * 1'  # every Monday at 12:35 AM UTC (6:20 AM NPT)
   workflow_dispatch:
 
 permissions:
